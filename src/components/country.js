@@ -17,6 +17,41 @@ class country extends Component {
 
   componentDidMount () {
     this.setState({ world: worlddata })
+
+    let len=worlddata.length
+    let worldcases=[]
+    for(let i=0;i<len;i++)
+    {
+       worldcases[worlddata[i].country]=worlddata[i].cases
+    }
+
+    let allElements=document.querySelectorAll('*[id]')
+    len=allElements.length
+    for(let i=0;i<len;i++)
+    {
+      if(allElements[i].tagName=="path")
+      {
+        let c=worldcases[allElements[i].id]
+        let elem=document.getElementById(allElements[i].id)
+        if(c>=100000)
+          elem.style.fill="#fa0000"
+        else if(c>=10000 && c<100000)
+          elem.style.fill="#fc7703"
+         else if(c>=1000 && c<10000)
+          elem.style.fill="#f8fc00"
+         else
+           elem.style.fill="grey"
+
+         let clr=elem.style.fill
+         elem.addEventListener("mouseenter",function(){
+           elem.style.fill="black"
+         })
+         elem.addEventListener("mouseleave",function(){
+           elem.style.fill=clr
+         })
+      }
+    }
+
   }
 
   customAlert (msg, e) {
@@ -1419,7 +1454,7 @@ class country extends Component {
           </a>
           <a xlinkTitle='United States' onClick={(e) => this.customAlert('United States', e)}>
             <path
-              id='usa'
+              id='United States'
               d='M148.76,158.34l-1,4.02l-3.49-2.26h-1.74l-1,4.27l-12.21,27.36l3.24,23.84l3.99,2.01l0.75,6.53h8.22l7.97,6.02l15.69,1.51l1.74,8.03l2.49,1.76l3.49-3.51l2.74,1.25l2.49,11.54l4.23,2.76l3.49-6.53l10.71-7.78l6.97,3.26l5.98,0.5l0.25-3.76l12.45,0.25l2.49,2.76l0.5,6.27l-1.49,3.51l1.74,6.02h3.74l3.74-5.77l-1.49-2.76l-1.49-6.02l2.24-6.78l10.21-8.78l7.72-2.26l-1-7.28l10.71-11.55l10.71-1.76L272.8,199l10.46-6.02v-8.03l-1-0.5l-3.74,1.25l-0.5,4.92l-12.43,0.15l-9.74,6.47l-15.29,5l-2.44-2.99l6.94-10.5l-3.43-3.27l-2.33-4.44l-4.83-3.88l-5.25-0.44l-9.92-6.77L148.76,158.34L148.76,158.34z'
             />
           </a>
@@ -1581,7 +1616,7 @@ class country extends Component {
           </a>
           <a xlinkTitle='china' onClick={(e) => this.customAlert('China', e)}>
             <path
-              id='china'
+              id='China'
               d='M670.4,170.07l-3.46,8.7l-4.77-0.25l-5.03,11.01l4.27,5.44l-8.8,12.15l-4.52-0.76l-3.02,3.8l0.75,2.28l3.52,0.25l1.76,4.05l3.52,0.76l10.81,13.93v7.09l5.28,3.29l5.78-1.01l7.29,4.3l8.8,2.53l4.27-0.51l4.78-0.51l10.05-6.58l3.27,0.51l1.25,2.97l2.77,0.83l3.77,5.57l-2.51,5.57l1.51,3.8l4.27,1.52l0.75,4.56l5.03,0.51l0.75-2.28l7.29-3.8l4.52,0.25l5.28,5.82l3.52-1.52l2.26,0.25l1.01,2.79l1.76,0.25l2.51-3.54l10.05-3.8l9.05-10.89l3.02-10.38l-0.25-6.84l-3.77-0.76l2.26-2.53l-0.5-4.05l-9.55-9.62v-4.81l2.76-3.54l2.76-1.27l0.25-2.79h-7.04l-1.26,3.8l-3.27-0.76l-4.02-4.3l2.51-6.58l3.52-3.8l3.27,0.25l-0.5,5.82l1.76,1.52l4.27-4.3l1.51-0.25l-0.5-3.29l4.02-4.81l3.02,0.25l1.76-5.57l2.06-1.09l0.21-3.47l-2-2.1l-0.17-5.48l3.85-0.25l-0.25-14.13l-2.7,1.62l-1.01,3.62l-4.51-0.01l-13.07-7.35l-9.44-11.38l-9.58-0.1l-2.44,2.12l3.1,7.1l-1.08,6.66l-3.86,1.6l-2.17-0.17l-0.16,6.59l2.26,0.51l4.02-1.77l5.28,2.53v2.53l-3.77,0.25l-3.02,6.58l-2.76,0.25l-9.8,12.91l-10.3,4.56l-7.04,0.51l-4.77-3.29l-6.79,3.55l-7.29-2.28l-1.76-4.81l-12.31-0.76l-6.53-10.63h-2.76l-2.22-4.93L670.4,170.07z'
             />
           </a>
@@ -1815,7 +1850,7 @@ class country extends Component {
           </a>
           <a xlinkTitle='britain' onClick={(e) => this.customAlert('Britain', e)}>
             <path
-              id='britain'
+              id='United Kingdom'
               d='M446.12,149.08l-1.83,2.77l0.73,1.11h4.22v1.85l-1.1,1.48l0.73,3.88l2.38,4.62l1.83,4.25l2.93,1.11l1.28,2.22l-0.18,2.03l-1.83,1.11l-0.18,0.92l1.28,0.74l-1.1,1.48l-2.57,1.11l-4.95-0.55l-7.71,3.51l-2.57-1.29l7.34-4.25l-0.92-0.55l-3.85-0.37l2.38-3.51l0.37-2.96l3.12-0.37l-0.55-5.73l-3.67-0.18l-1.1-1.29l0.18-4.25l-2.2,0.18l2.2-7.39l4.04-2.96L446.12,149.08L446.12,149.08z'
             />
           </a>
@@ -1881,7 +1916,7 @@ class country extends Component {
           </a>
           <a xlinkTitle='spain' onClick={(e) => this.customAlert('Spain', e)}>
             <path
-              id='spain'
+              id='Spain'
               d='M448.36,205h-12.74l-2.57-1.16l-1.24,0.09l-1.5,3.12l0.53,3.21l4.87,0.45l0.62,2.05l-2.12,11.95l0.09,2.14l3.45,1.87l3.98,0.27l7.96-1.96l3.89-4.9l0.09-4.99l6.9-6.24l0.35-2.76l-6.28-0.09L448.36,205L448.36,205z'
             />
           </a>
@@ -1929,7 +1964,7 @@ class country extends Component {
           </a>
           <a xlinkTitle='germany' onClick={(e) => this.customAlert('Germany', e)}>
             <path
-              id='germany'
+              id='Germany'
               d='M471.14,167.88l3.57-0.58v-2.52l2.99-0.49l1.64,1.65l1.73,0.19l2.7-1.17l2.41,0.68l2.12,1.84l0.29,6.89l2.12,2.82l-2.79,0.39l-4.63,2.91l0.39,0.97l4.14,3.88l-0.29,1.94l-3.85,1.94l-3.57,0.1l-0.87,1.84h-1.83l-0.87-1.94l-3.18-0.78l-0.1-3.2l-2.7-1.84l0.29-2.33l-1.83-2.52l0.48-3.3l2.5-1.17L471.14,167.88L471.14,167.88z'
             />
           </a>
@@ -2001,7 +2036,7 @@ class country extends Component {
           </a>
           <a xlinkTitle='italy' onClick={(e) => this.customAlert('Italy', e)}>
             <path
-              id='italy'
+              id='Italy'
               d='M472.27,196.98l-0.62,1.57l0.17,1.71l2.39,2.79l3.76-0.13l8.3,9.64l5.18,1.5l3.06,2.89l0.73,6.59l1.64-0.96l1.42-3.59l-0.35-2.58l2.43-0.22l0.35-1.46l-6.85-3.28l-6.5-6.39l-2.59-3.82l-0.63-3.63l3.31-0.79l-0.85-2.39l-2.03-1.71l-1.75-0.08l-2.44,0.67l-2.3,3.22l-1.39,0.92l-2.15-1.32L472.27,196.98L472.27,196.98z'
             />
           </a>
