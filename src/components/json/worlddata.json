@@ -2,9 +2,9 @@
     {
         "index": "1",
         "country": "United States",
-        "cases": "999742",
-        "dead": "56037",
-        "recovered": "109791"
+        "cases": "1000300",
+        "dead": "56096",
+        "recovered": "110025"
     },
     {
         "index": "2",
@@ -114,9 +114,9 @@
     {
         "index": "17",
         "country": "Peru",
-        "cases": "27517",
-        "dead": "728",
-        "recovered": "8088"
+        "cases": "28699",
+        "dead": "782",
+        "recovered": "8425"
     },
     {
         "index": "18",
@@ -415,7 +415,7 @@
     {
         "index": "60",
         "country": "Bahrain",
-        "cases": "2708",
+        "cases": "2723",
         "dead": "8",
         "recovered": "1218"
     },
@@ -576,23 +576,23 @@
     {
         "index": "83",
         "country": "Ivory Coast",
-        "cases": "1150",
+        "cases": "1164",
         "dead": "14",
-        "recovered": "468"
+        "recovered": "499"
     },
     {
         "index": "84",
+        "country": "Guinea",
+        "cases": "1163",
+        "dead": "7",
+        "recovered": "246"
+    },
+    {
+        "index": "85",
         "country": "New Zealand",
         "cases": "1122",
         "dead": "19",
         "recovered": "1180"
-    },
-    {
-        "index": "85",
-        "country": "Guinea",
-        "cases": "1094",
-        "dead": "7",
-        "recovered": "225"
     },
     {
         "index": "86",
@@ -737,9 +737,9 @@
     {
         "index": "106",
         "country": "Georgia",
-        "cases": "496",
+        "cases": "497",
         "dead": "6",
-        "recovered": "149"
+        "recovered": "156"
     },
     {
         "index": "107",
@@ -897,17 +897,17 @@
     },
     {
         "index": "129",
+        "country": "Rwanda",
+        "cases": "207",
+        "dead": "0",
+        "recovered": "93"
+    },
+    {
+        "index": "130",
         "country": "Congo",
         "cases": "200",
         "dead": "8",
         "recovered": "19"
-    },
-    {
-        "index": "130",
-        "country": "Rwanda",
-        "cases": "191",
-        "dead": "0",
-        "recovered": "92"
     },
     {
         "index": "131",
@@ -1031,9 +1031,9 @@
     {
         "index": "148",
         "country": "Monaco",
-        "cases": "94",
+        "cases": "95",
         "dead": "4",
-        "recovered": "35"
+        "recovered": "42"
     },
     {
         "index": "149",
@@ -1220,7 +1220,7 @@
     {
         "index": "175",
         "country": "Angola",
-        "cases": "26",
+        "cases": "27",
         "dead": "2",
         "recovered": "6"
     },
