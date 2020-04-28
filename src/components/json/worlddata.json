@@ -198,8 +198,8 @@
     {
         "index": "29",
         "country": "Japan",
-        "cases": "13613",
-        "dead": "394",
+        "cases": "13757",
+        "dead": "397",
         "recovered": "2905"
     },
     {
@@ -275,9 +275,9 @@
     {
         "index": "40",
         "country": "Philippines",
-        "cases": "7777",
-        "dead": "511",
-        "recovered": "932"
+        "cases": "7958",
+        "dead": "530",
+        "recovered": "975"
     },
     {
         "index": "41",
@@ -324,9 +324,9 @@
     {
         "index": "47",
         "country": "Malaysia",
-        "cases": "5820",
-        "dead": "99",
-        "recovered": "3957"
+        "cases": "5851",
+        "dead": "100",
+        "recovered": "4032"
     },
     {
         "index": "48",
@@ -1506,20 +1506,13 @@
     },
     {
         "index": "216",
-        "country": "Guantanamo Bay",
-        "cases": "1",
-        "dead": "\u2014",
-        "recovered": "\u2014"
-    },
-    {
-        "index": "217",
         "country": "Saint Pierre & Miquelon",
         "cases": "1",
         "dead": "0",
         "recovered": "0"
     },
     {
-        "index": "218",
+        "index": "217",
         "country": "Yemen",
         "cases": "1",
         "dead": "0",
