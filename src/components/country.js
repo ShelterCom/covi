@@ -31,7 +31,9 @@ class country extends Component {
     {
       if(allElements[i].tagName=="path")
       {
-        let c=worldcases[allElements[i].id]
+        let str=allElements[i].id
+        let capitalstr=str.charAt(0).toUpperCase() + str.slice(1) //first letter capital
+        let c=worldcases[capitalstr]
         let elem=document.getElementById(allElements[i].id)
         if(c>=100000)
           elem.style.fill="#fa0000"
