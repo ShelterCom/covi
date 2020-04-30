@@ -1,218 +1,218 @@
 index,country,cases,dead,recovered
-1,United States,1049149,60384,118673
-2,Spain,212917,24275,108947
+1,United States,1064353,61504,126325
+2,Spain,213435,24543,112050
 3,Italy,203591,27682,71252
 4,United Kingdom,165221,26097,—
-5,Germany,160929,6374,113386
-6,France,131466,24087,48228
+5,Germany,161539,6467,114130
+6,France,128442,24087,48228
 7,Turkey,117589,3081,44022
-8,Russia,99399,972,10286
+8,Russia,106498,1073,11619
 9,Iran,93657,5957,73791
-10,China,82858,4633,77578
-11,Brazil,73511,5104,32544
-12,Canada,51230,2984,20096
-13,Belgium,47859,7501,11283
-14,Netherlands,38802,4711,—
-15,India,31787,1008,7797
-16,Peru,31190,854,9179
-17,Switzerland,29407,1408,22600
-18,Portugal,24505,973,1470
-19,Ecuador,24258,871,1643
+10,China,82862,4633,77610
+11,Brazil,79361,5511,34132
+12,Canada,51597,2996,20327
+13,Belgium,48519,7594,11576
+14,Netherlands,39316,4795,—
+15,Peru,33931,943,10037
+16,India,33610,1075,8373
+17,Switzerland,29586,1423,23100
+18,Ecuador,24675,883,1720
+19,Portugal,24505,973,1470
 20,Saudi Arabia,21402,157,2953
-21,Ireland,19877,1159,9233
-22,Sweden,20302,2462,1435
-23,Mexico,16752,1569,2627
-24,Israel,15782,212,7929
-25,Singapore,15641,14,1188
-26,Austria,15352,580,12779
-27,Pakistan,15289,335,3425
-28,Chile,15135,216,8057
-29,Japan,13852,389,3374
-30,Belarus,13181,84,2072
-31,Qatar,12564,10,1243
-32,Poland,12218,606,2655
-33,Romania,11978,681,3569
+21,Sweden,21092,2586,
+22,Ireland,20253,1190,9233
+23,Mexico,17799,1732,2627
+24,Singapore,16169,14,1188
+25,Pakistan,16117,358,4105
+26,Israel,15870,219,8412
+27,Austria,15364,580,12779
+28,Chile,14885,216,8057
+29,Japan,14264,442,3466
+30,Belarus,14027,89,2386
+31,Poland,12640,624,3025
+32,Qatar,12564,10,1243
+33,Romania,12240,695,4017
 34,United Arab Emirates,11929,98,2329
-35,South Korea,10761,246,8922
-36,Ukraine,9866,250,1103
-37,Indonesia,9771,784,1391
-38,Denmark,9008,443,6366
+35,South Korea,10765,247,9059
+36,Ukraine,10406,261,1238
+37,Indonesia,10118,792,1522
+38,Denmark,9158,452,6546
 39,Serbia,8724,173,1292
-40,Philippines,8212,558,1023
-41,Norway,7660,206,—
-42,Czech Republic,7504,227,2960
-43,Bangladesh,7103,163,150
-44,Australia,6746,89,5667
-45,Dominican Republic,6416,286,1165
-46,Panama,6200,176,484
-47,Colombia,5949,269,1268
-48,Malaysia,5945,100,4087
-49,Egypt,5042,359,1304
-50,South Africa,4996,93,2073
+40,Philippines,8488,568,1043
+41,Norway,7710,207,—
+42,Czech Republic,7579,227,3108
+43,Bangladesh,7667,168,160
+44,Australia,6753,91,5714
+45,Dominican Republic,6652,293,1228
+46,Panama,6378,178,527
+47,Colombia,6207,278,1411
+48,Malaysia,6002,102,4171
+49,South Africa,5350,103,2073
+50,Egypt,5286,380,1335
 51,Finland,4906,206,2800
-52,Morocco,4289,167,890
-53,Argentina,4114,207,1151
+52,Morocco,4321,168,928
+53,Argentina,4272,214,1181
 54,Algeria,3848,444,1702
-55,Luxembourg,3741,89,3123
-56,Moldova,3771,111,1114
+55,Moldova,3771,111,1114
+56,Luxembourg,3769,89,3134
 57,Kuwait,3740,24,1389
-58,Kazakhstan,3105,25,798
-59,Thailand,2947,54,2665
-60,Bahrain,2869,8,1370
-61,Hungary,2727,300,536
+58,Kazakhstan,3273,25,832
+59,Thailand,2954,54,2684
+60,Bahrain,2921,8,1455
+61,Hungary,2775,312,581
 62,Greece,2576,139,577
 63,Oman,2274,10,364
-64,Croatia,2062,67,1288
-65,Uzbekistan,1969,8,1096
-66,Afghanistan,1939,60,252
-67,Iraq,1928,90,1319
+64,Afghanistan,2171,64,260
+65,Croatia,2062,67,1288
+66,Uzbekistan,2017,9,1096
+67,Iraq,2003,92,1346
 68,Armenia,1932,30,900
-69,Iceland,1797,10,1656
-70,Azerbaijan,1766,23,1267
-71,Cameroon,1705,58,805
-72,Bosnia & Herzegovina,1677,65,710
-73,Ghana,1671,16,188
-74,Estonia,1666,50,240
-75,Nigeria,1532,44,255
+69,Cameroon,1832,61,934
+70,Iceland,1797,10,1656
+71,Azerbaijan,1766,23,1267
+72,Nigeria,1728,51,307
+73,Bosnia & Herzegovina,1677,65,710
+74,Ghana,1671,16,188
+75,Estonia,1666,50,240
 76,Cuba,1467,58,617
-77,North Macedonia,1442,73,627
+77,North Macedonia,1465,77,738
 78,Bulgaria,1447,64,243
 79,Puerto Rico,1433,86,—
 80,Slovenia,1418,89,230
 81,Slovakia,1391,22,484
 82,Lithuania,1375,45,563
-83,Guinea,1240,7,269
-84,Ivory Coast,1183,14,525
-85,New Zealand,1126,19,1229
+83,Guinea,1351,7,313
+84,Ivory Coast,1238,14,557
+85,New Zealand,1129,19,1241
 86,Charles de Gaulle,1081,0,0
-87,Djibouti,1072,2,498
-88,Hong Kong,1038,4,811
-89,Bolivia,1014,53,98
-90,Tunisia,975,40,279
+87,Djibouti,1077,2,599
+88,Bolivia,1053,55,110
+89,Hong Kong,1038,4,830
+90,Tunisia,980,40,294
 91,USS Theodore Roosevelt,969,1,29
-92,Cyprus,837,15,148
-93,Latvia,836,13,267
-94,Senegal,823,9,296
-95,Kosovo,790,22,232
-96,Albania,766,30,455
-97,Andorra,743,41,398
-98,Honduras,738,66,73
-99,Lebanon,717,24,145
-100,Diamond Princess,712,13,651
-101,Niger,709,31,403
-102,Kyrgyzstan,708,8,416
-103,Costa Rica,705,6,306
-104,Burkina Faso,638,42,476
-105,Uruguay,625,15,394
-106,Sri Lanka,619,7,134
-107,Guatemala,557,16,62
-108,San Marino,553,41,64
-109,Somalia,528,28,19
-110,Georgia,517,6,168
-111,Palestine,501,2,71
-112,DR Congo,471,30,56
-113,Malta,458,4,303
-114,Jordan,449,8,348
-115,Taiwan,429,6,311
-116,Mali,424,24,122
-117,Kenya,384,14,124
-118,Jamaica,364,7,29
-119,El Salvador,345,8,97
-120,Mauritius,332,10,303
-121,Venezuela,329,10,142
-122,Montenegro,321,7,189
-123,Sudan,318,25,31
-124,Equatorial Guinea,315,1,9
-125,Isle of Man,309,21,252
-126,Tanzania,299,10,48
+92,Senegal,882,9,315
+93,Latvia,849,15,348
+94,Cyprus,843,15,148
+95,Kosovo,799,22,249
+96,Albania,773,31,470
+97,Kyrgyzstan,746,8,462
+98,Andorra,743,42,423
+99,Honduras,738,66,73
+100,Lebanon,721,24,150
+101,Niger,713,32,435
+102,Diamond Princess,712,13,651
+103,Costa Rica,713,6,323
+104,Sri Lanka,649,7,136
+105,Burkina Faso,641,43,498
+106,Uruguay,625,15,394
+107,Somalia,582,28,20
+108,San Marino,563,41,69
+109,Guatemala,557,16,62
+110,Georgia,539,6,178
+111,Palestine,507,2,70
+112,DR Congo,491,30,59
+113,Mali,482,25,129
+114,Tanzania,480,16,167
+115,Malta,463,4,339
+116,Jordan,451,8,356
+117,Taiwan,429,6,322
+118,Kenya,384,15,129
+119,Jamaica,381,7,29
+120,El Salvador,377,9,106
+121,Sudan,375,28,32
+122,Mauritius,332,10,306
+123,Venezuela,331,10,142
+124,Montenegro,322,7,206
+125,Equatorial Guinea,315,1,9
+126,Isle of Man,313,21,258
 127,Jersey,284,20,185
-128,Vietnam,270,0,222
-129,Maldives,250,0,17
-130,Guernsey,247,13,191
-131,Paraguay,239,9,102
-132,Gabon,238,3,53
-133,Rwanda,212,0,95
-134,Congo,207,8,19
-135,Faroe Islands,187,0,181
-136,Myanmar,150,6,27
-137,Costa Atlantica,148,0,0
-138,Gibraltar,141,0,131
-139,Liberia,141,16,45
-140,Guam,141,5,128
-141,Brunei,138,1,124
-142,Greg Mortimer,128,0,—
-143,Madagascar,128,0,71
-144,Ethiopia,126,3,50
-145,Cambodia,122,0,119
-146,Sierra Leone,116,4,14
-147,Trinidad & Tobago,116,8,68
-148,Cape Verde,113,1,2
-149,Bermuda,110,6,44
-150,Northern Cyprus,108,3,52
-151,Aruba,100,2,73
-152,Togo,99,6,63
-153,Monaco,95,4,50
-154,Zambia,95,3,42
-155,Eswatini,91,1,10
-156,Liechtenstein,82,1,55
-157,Bahamas,80,11,23
-158,Barbados,80,6,39
-159,Uganda,79,0,52
-160,Haiti,76,6,8
-161,Mozambique,76,0,9
-162,Guyana,75,8,15
-163,Sint Maarten,75,13,33
-164,Guinea-Bissau,73,1,18
-165,Cayman Islands,70,1,10
-166,Donetsk PR,67,1,2
-167,Benin,64,1,33
-168,USS Kidd,64,0,0
-169,Libya,61,2,18
-170,French Polynesia,57,0,43
-171,U.S. Virgin Islands,57,4,51
-172,Nepal,54,0,16
-173,Chad,52,2,19
-174,Central African Republic,50,0,10
-175,Luhansk PR,48,0,7
+128,Maldives,278,0,17
+129,Gabon,276,3,67
+130,Vietnam,270,0,222
+131,Guernsey,247,13,191
+132,Paraguay,239,9,102
+133,Rwanda,225,0,98
+134,Congo,220,9,19
+135,Guinea-Bissau,205,1,19
+136,Faroe Islands,187,0,184
+137,Myanmar,150,6,27
+138,Costa Atlantica,148,0,0
+139,Gibraltar,141,0,131
+140,Liberia,141,16,45
+141,Guam,141,5,128
+142,Brunei,138,1,124
+143,Ethiopia,131,3,59
+144,Greg Mortimer,128,0,—
+145,Madagascar,128,0,75
+146,Cambodia,122,0,119
+147,Luhansk PR,119,1,7
+148,Sierra Leone,116,4,14
+149,Trinidad & Tobago,116,8,71
+150,Cape Verde,113,1,2
+151,Bermuda,111,6,48
+152,Togo,109,7,64
+153,Northern Cyprus,108,3,52
+154,Aruba,100,2,73
+155,Donetsk PR,100,3,11
+156,Zambia,97,3,54
+157,Monaco,95,4,58
+158,Eswatini,91,1,10
+159,Liechtenstein,82,1,55
+160,Uganda,81,0,52
+161,Bahamas,80,11,23
+162,Barbados,80,7,39
+163,Guyana,78,8,18
+164,Haiti,76,6,8
+165,Mozambique,76,0,9
+166,Sint Maarten,76,13,44
+167,Cayman Islands,73,1,10
+168,Benin,64,1,33
+169,USS Kidd,64,0,0
+170,Libya,61,2,18
+171,French Polynesia,57,0,43
+172,Nepal,57,0,16
+173,U.S. Virgin Islands,57,4,51
+174,Chad,52,2,19
+175,Central African Republic,50,0,10
 176,Macau,45,0,33
 177,Syria,43,3,21
 178,Eritrea,39,0,19
 179,Mongolia,38,0,9
-180,Malawi,36,3,5
+180,Malawi,36,3,7
 181,South Sudan,34,0,0
 182,Zimbabwe,32,4,5
 183,Angola,27,2,6
 184,East Timor,24,0,2
 185,Antigua & Barbuda,23,3,3
 186,Botswana,23,1,5
-187,Laos,19,0,4
-188,Belize,18,2,5
-189,Fiji,18,0,12
-190,Grenada,18,0,7
+187,Grenada,19,0,10
+188,Laos,19,0,4
+189,Belize,18,2,5
+190,Fiji,18,0,12
 191,New Caledonia,18,0,17
 192,Saint Lucia,17,0,15
-193,Curaçao,16,1,12
+193,Curaçao,16,1,13
 194,Dominica,16,0,13
 195,Namibia,16,0,8
-196,Saint Kitts & Nevis,15,0,2
-197,Saint Vincent,15,0,5
-198,Northern Mariana Islands ,14,2,11
-199,Falkland Islands,13,0,11
-200,Nicaragua,13,3,7
-201,MS Zaandam,13,4,—
-202,Coral Princess,12,2,—
-203,Turks & Caicos Islands,12,1,5
-204,Åland Islands,11,0,0
-205,Burundi,11,1,4
-206,Greenland,11,0,11
-207,Montserrat,11,0,2
-208,São Tomé & Príncipe,11,0,4
-209,Seychelles,11,0,7
-210,The Gambia,10,1,8
-211,Suriname,10,1,7
-212,Vatican City,10,0,2
-213,HNLMS Dolfijn,8,0,—
-214,Mauritania,8,1,6
-215,Papua New Guinea,8,0,0
-216,Artsakh,7,0,0
-217,Bhutan,7,0,5
+196,Saint Vincent,16,0,8
+197,Saint Kitts & Nevis,15,0,6
+198,Tajikistan,15,0,0
+199,Nicaragua,14,4,7
+200,Northern Mariana Islands ,14,2,11
+201,Falkland Islands,13,0,11
+202,MS Zaandam,13,4,—
+203,Åland Islands,12,0,0
+204,Coral Princess,12,2,—
+205,Turks & Caicos Islands,12,1,5
+206,Burundi,11,1,4
+207,Greenland,11,0,11
+208,Montserrat,11,1,3
+209,São Tomé & Príncipe,11,0,4
+210,Seychelles,11,0,7
+211,The Gambia,10,1,8
+212,Suriname,10,1,8
+213,Vatican City,10,0,2
+214,HNLMS Dolfijn,8,0,—
+215,Mauritania,8,1,6
+216,Papua New Guinea,8,0,0
+217,Artsakh,7,0,0
