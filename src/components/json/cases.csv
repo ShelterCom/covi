@@ -1,218 +1,33 @@
-index,country,cases,dead,recovered
-1,United States,1184248,68286,153246
-2,Spain,217466,25264,118902
-3,Italy,210717,28884,81654
-4,United Kingdom,186599,28446,—
-5,Germany,165666,6866,126153
-6,Russia,145268,1356,18095
-7,France,131287,24895,50784
-8,Turkey,126045,3397,63151
-9,Brazil,101826,7051,42991
-10,Iran,97424,6203,78422
-11,China,82880,4633,77766
-12,Canada,59474,3682,24908
-13,Belgium,50267,7924,12378
-14,Peru,45928,1286,13550
-15,India,42533,1373,11707
-16,Netherlands,40571,5056,—
-17,Switzerland,29905,1473,24500
-18,Ecuador,29538,1564,3300
-19,Saudi Arabia,27011,184,4134
-20,Portugal,25282,1043,1689
-21,Mexico,23471,2154,13447
-22,Sweden,22317,2679,1543
-23,Ireland,21506,1303,13386
-24,Pakistan,20186,462,5590
-25,Chile,19663,260,10041
-26,Singapore,18778,18,1408
-27,Belarus,17489,103,3259
-28,Israel,16193,230,9634
-29,Qatar,15551,12,1664
-30,Austria,15533,598,13228
-31,Japan,15084,541,3981
-32,United Arab Emirates,14163,126,2762
-33,Poland,13937,683,4095
-34,Romania,13163,780,4869
-35,Ukraine,12331,303,1619
-36,Indonesia,11587,864,1954
-37,South Korea,10801,252,9217
-38,Bangladesh,10143,182,1209
-39,Denmark,9670,484,6987
-40,Philippines,9485,623,1315
-41,Serbia,9464,193,1551
-42,Dominican Republic,7954,333,1606
-43,Norway,7847,213,—
-44,Czech Republic,7781,249,3592
-45,Colombia,7688,340,1722
-46,Panama,7197,200,641
-47,Australia,6825,95,5859
-48,South Africa,6783,131,2549
-49,Egypt,6465,429,1562
-50,Malaysia,6353,105,4484
-51,Finland,5327,230,3000
-52,Kuwait,4983,38,1776
-53,Morocco,4903,174,1438
-54,Argentina,4770,246,1341
-55,Algeria,4474,463,1936
-56,Moldova,4121,125,1382
-57,Kazakhstan,3988,27,1107
-58,Luxembourg,3824,96,3379
-59,Bahrain,3383,8,1718
-60,Hungary,3035,351,630
-61,Thailand,2987,54,2740
-62,Afghanistan,2894,90,397
-63,Greece,2626,144,1374
-64,Oman,2568,12,750
-65,Nigeria,2558,87,400
-66,Armenia,2386,35,1035
-67,Iraq,2296,97,1490
-68,Ghana,2169,18,229
-69,Uzbekistan,2149,10,1319
-70,Croatia,2096,79,1489
-71,Cameroon,2077,64,953
-72,Azerbaijan,1932,25,1441
-73,Bosnia & Herzegovina,1857,77,825
-74,Puerto Rico,1808,97,—
-75,Iceland,1799,10,1717
-76,Estonia,1700,55,259
-77,Cuba,1649,67,827
-78,Bulgaria,1618,73,308
-79,Guinea,1586,7,405
-80,North Macedonia,1511,84,945
-81,Bolivia,1470,71,159
-82,Slovenia,1439,96,241
-83,Lithuania,1410,46,635
-84,Slovakia,1408,24,619
-85,Ivory Coast,1398,17,653
-86,Senegal,1182,9,372
-87,New Zealand,1137,20,1276
-88,Djibouti,1112,2,686
-89,USS Theodore Roosevelt,1102,1,53
-90,Charles de Gaulle,1081,0,0
-91,Hong Kong,1040,4,879
-92,Tunisia,1013,42,328
-93,Honduras,1010,76,116
-94,Latvia,879,16,348
-95,Cyprus,872,15,296
-96,Kosovo,851,22,381
-97,Albania,795,31,531
-98,Kyrgyzstan,795,10,564
-99,Niger,750,36,518
-100,Andorra,748,45,493
-101,Costa Rica,739,6,386
-102,Lebanon,737,25,200
-103,Somalia,722,32,44
-104,Sri Lanka,718,7,184
-105,Diamond Princess,712,13,651
-106,Guatemala,688,17,72
-107,DR Congo,674,33,75
-108,Burkina Faso,662,45,540
-109,Uruguay,655,17,442
-110,Georgia,593,9,223
-111,Sudan,592,41,52
-112,San Marino,582,41,86
-113,Mali,563,27,213
-114,Maldives,527,1,18
-115,Palestine,522,2,77
-116,El Salvador,490,11,154
-117,Tanzania,480,16,167
-118,Malta,477,4,392
-119,Kenya,465,24,167
-120,Jamaica,463,8,33
-121,Jordan,460,9,367
-122,Taiwan,437,6,334
-123,Paraguay,370,10,119
-124,Venezuela,357,10,158
-125,Gabon,335,5,85
-126,Mauritius,332,10,315
-127,Montenegro,322,8,249
-128,Isle of Man,321,22,271
-129,Equatorial Guinea,315,1,9
-130,Jersey,286,23,197
-131,Vietnam,271,0,219
-132,Rwanda,259,0,124
-133,Guinea-Bissau,257,1,19
-134,Guernsey,252,13,217
-135,Congo,229,9,25
-136,Faroe Islands,187,0,184
-137,Sierra Leone,166,8,29
-138,Cape Verde,165,2,33
-139,Myanmar,155,6,43
-140,Liberia,155,18,58
-141,Madagascar,149,0,98
-142,Costa Atlantica,148,0,0
-143,Guam,146,5,128
-144,Gibraltar,144,0,132
-145,Brunei,138,1,128
-146,Ethiopia,135,3,75
-147,Luhansk PR,129,1,12
-148,Tajikistan,128,2,0
-149,Greg Mortimer,128,0,—
-150,Togo,124,9,67
-151,Zambia,124,3,78
-152,Cambodia,122,0,120
-153,Chad,117,10,39
-154,Trinidad & Tobago,116,8,88
-155,Bermuda,115,7,51
-156,Eswatini,112,1,12
-157,Donetsk PR,110,4,16
-158,Northern Cyprus,108,4,103
-159,Aruba,100,2,81
-160,Monaco,95,4,78
-161,Benin,90,2,42
-162,Uganda,89,0,52
-163,Haiti,85,8,10
-164,Bahamas,83,11,25
-165,Guyana,82,9,24
-166,Liechtenstein,82,1,55
-167,Barbados,82,7,44
-168,Mozambique,80,0,19
-169,USS Kidd,78,0,0
-170,Sint Maarten,76,13,44
-171,Nepal,75,0,16
-172,Cayman Islands,74,1,10
-173,Central African Republic,72,0,10
-174,U.S. Virgin Islands,66,4,51
-175,Libya,63,3,22
-176,French Polynesia,58,0,51
-177,South Sudan,46,0,0
-178,Macau,45,0,39
-179,Syria,44,3,27
-180,Eritrea,39,0,26
-181,Malawi,39,3,9
-182,Mongolia,39,0,10
-183,Angola,35,2,11
-184,Zimbabwe,34,4,5
-185,Antigua & Barbuda,24,3,11
-186,East Timor,24,0,16
-187,Botswana,23,1,8
-188,Grenada,21,0,13
-189,Laos,19,0,9
-190,Belize,18,2,13
-191,Fiji,18,0,14
-192,New Caledonia,18,0,17
-193,Saint Lucia,18,0,15
-194,Saint Vincent,17,0,9
-195,The Gambia,17,1,9
-196,Curaçao,16,1,13
-197,Dominica,16,0,13
-198,Namibia,16,0,8
-199,São Tomé & Príncipe,16,1,4
-200,Burundi,15,1,7
-201,Nicaragua,15,5,7
-202,Saint Kitts & Nevis,15,0,8
-203,Northern Mariana Islands ,14,2,11
-204,Falkland Islands,13,0,13
-205,MS Zaandam,13,4,—
-206,Coral Princess,12,2,—
-207,Turks & Caicos Islands,12,1,6
-208,Greenland,11,0,11
-209,Montserrat,11,1,6
-210,Seychelles,11,0,7
-211,Vatican City,11,0,2
-212,Suriname,10,1,9
-213,Yemen,10,2,1
-214,HNLMS Dolfijn,8,0,—
-215,Mauritania,8,1,6
-216,Papua New Guinea,8,0,0
-217,Artsakh,7,0,0
+index,state,cases,recovered,dead
+1,Andaman and Nicobar Islands,33,32,0
+2,Andhra Pradesh,1717,589,36
+3,Arunachal Pradesh,1,1,0
+4,Assam,43,32,1
+5,Bihar,529,130,4
+6,Chandigarh,102,21,1
+7,Chhattisgarh,58,36,0
+8,Delhi,4898,1431,64
+9,Goa,7,7,0
+10,Gujarat,5804,1195,319
+11,Haryana,517,254,6
+12,Himachal Pradesh,41,38,1
+13,Jammu and Kashmir,726,303,8
+14,Jharkhand,115,27,3
+15,Karnataka,659,324,28
+16,Kerala,500,462,4
+17,Ladakh,41,17,0
+18,Madhya Pradesh,3049,1000,176
+19,Maharashtra,14541,2465,583
+20,Manipur,2,2,0
+21,Meghalaya,12,10,1
+22,Mizoram,1,0,0
+23,Odisha,170,60,1
+24,Puducherry,9,6,0
+25,Punjab,1233,128,23
+26,Rajasthan,3061,1394,77
+27,Tamil Nadu,3550,1409,31
+28,Telengana,1085,585,29
+29,Tripura,29,2,0
+30,Uttarakhand,60,39,1
+31,Uttar Pradesh,2859,944,53
+32,West Bengal,1259,218,133
