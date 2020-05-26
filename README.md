@@ -21,6 +21,10 @@ In case you found a bug or issue, create the same on this repository. I we find 
 ## Contribution
 This is an open-source project and you can contribute to this project free from all constraints, just take care that the changes you make resolve an issue if there exists any or suffice any of the to-do's mentioned above :relaxed:
 
+## Contributors
+Thanks to everyone who has contributed to this awesome tracker so far!
+<a href="https://github.com/ShelterCom/covi/graphs/contributors"><img src="https://contributors-img.firebaseapp.com/image?repo=ShelterCom/Covi" alt="Image of contributors"></a>
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
