@@ -2,246 +2,246 @@
     {
         "index": "1",
         "state": "Andaman and Nicobar Islands",
-        "cases": "1",
+        "cases": "11",
         "recovered": "33",
         "dead": "0"
     },
     {
         "index": "2",
         "state": "Andhra Pradesh",
-        "cases": "2292",
-        "recovered": "2899",
-        "dead": "78"
+        "cases": "3244",
+        "recovered": "3509",
+        "dead": "88"
     },
     {
         "index": "3",
         "state": "Arunachal Pradesh",
-        "cases": "55",
-        "recovered": "2",
+        "cases": "88",
+        "recovered": "7",
         "dead": "0"
     },
     {
         "index": "4",
         "state": "Assam",
-        "cases": "1839",
-        "recovered": "1249",
-        "dead": "4"
+        "cases": "2145",
+        "recovered": "2166",
+        "dead": "8"
     },
     {
         "index": "5",
         "state": "Bihar",
-        "cases": "2606",
-        "recovered": "3071",
-        "dead": "33"
+        "cases": "2093",
+        "recovered": "4644",
+        "dead": "41"
     },
     {
         "index": "6",
         "state": "Chandigarh",
-        "cases": "36",
-        "recovered": "286",
-        "dead": "5"
+        "cases": "50",
+        "recovered": "302",
+        "dead": "6"
     },
     {
         "index": "7",
         "state": "Chhattisgarh",
-        "cases": "854",
-        "recovered": "402",
-        "dead": "6"
+        "cases": "736",
+        "recovered": "1036",
+        "dead": "9"
     },
     {
         "index": "8",
         "state": "Dadra and Nagar Haveli and Daman and Diu",
-        "cases": "26",
-        "recovered": "2",
+        "cases": "36",
+        "recovered": "9",
         "dead": "0"
     },
     {
         "index": "9",
         "state": "Delhi",
-        "cases": "19581",
-        "recovered": "12245",
-        "dead": "984"
+        "cases": "26351",
+        "recovered": "16500",
+        "dead": "1837"
     },
     {
         "index": "10",
         "state": "Goa",
-        "cases": "320",
-        "recovered": "67",
+        "cases": "544",
+        "recovered": "85",
         "dead": "0"
     },
     {
         "index": "11",
         "state": "Gujarat",
-        "cases": "5439",
-        "recovered": "14735",
-        "dead": "1347"
+        "cases": "5962",
+        "recovered": "17082",
+        "dead": "1533"
     },
     {
         "index": "12",
         "state": "Haryana",
-        "cases": "3339",
-        "recovered": "2188",
-        "dead": "52"
+        "cases": "4406",
+        "recovered": "3748",
+        "dead": "118"
     },
     {
         "index": "13",
         "state": "Himachal Pradesh",
-        "cases": "191",
-        "recovered": "254",
-        "dead": "6"
+        "cases": "180",
+        "recovered": "372",
+        "dead": "8"
     },
     {
         "index": "14",
         "state": "Jammu and Kashmir",
-        "cases": "2785",
-        "recovered": "1671",
-        "dead": "51"
+        "cases": "2454",
+        "recovered": "2781",
+        "dead": "63"
     },
     {
         "index": "15",
         "state": "Jharkhand",
-        "cases": "889",
-        "recovered": "592",
-        "dead": "8"
+        "cases": "709",
+        "recovered": "1121",
+        "dead": "9"
     },
     {
         "index": "16",
         "state": "Karnataka",
-        "cases": "3110",
-        "recovered": "2862",
-        "dead": "69"
+        "cases": "2980",
+        "recovered": "4456",
+        "dead": "94"
     },
     {
         "index": "17",
         "state": "Kerala",
-        "cases": "1238",
-        "recovered": "905",
-        "dead": "18"
+        "cases": "1366",
+        "recovered": "1236",
+        "dead": "20"
     },
     {
         "index": "18",
         "state": "Ladakh",
-        "cases": "62",
-        "recovered": "52",
+        "cases": "563",
+        "recovered": "85",
         "dead": "1"
     },
     {
         "index": "19",
         "state": "Madhya Pradesh",
-        "cases": "2730",
-        "recovered": "6892",
-        "dead": "427"
+        "cases": "2455",
+        "recovered": "8152",
+        "dead": "476"
     },
     {
         "index": "20",
         "state": "Maharashtra",
-        "cases": "46086",
-        "recovered": "44517",
-        "dead": "3438"
+        "cases": "50057",
+        "recovered": "57851",
+        "dead": "5537"
     },
     {
         "index": "21",
         "state": "Manipur",
-        "cases": "248",
-        "recovered": "63",
+        "cases": "341",
+        "recovered": "159",
         "dead": "0"
     },
     {
         "index": "22",
         "state": "Meghalaya",
-        "cases": "30",
-        "recovered": "13",
+        "cases": "18",
+        "recovered": "25",
         "dead": "1"
     },
     {
         "index": "23",
         "state": "Mizoram",
-        "cases": "92",
+        "cases": "120",
         "recovered": "1",
         "dead": "0"
     },
     {
         "index": "24",
         "state": "Nagaland",
-        "cases": "106",
-        "recovered": "22",
+        "cases": "87",
+        "recovered": "92",
         "dead": "0"
     },
     {
         "index": "25",
         "state": "Odisha",
-        "cases": "959",
-        "recovered": "2282",
-        "dead": "9"
+        "cases": "1178",
+        "recovered": "2974",
+        "dead": "11"
     },
     {
         "index": "26",
         "state": "Puducherry",
-        "cases": "74",
-        "recovered": "53",
-        "dead": "0"
+        "cases": "111",
+        "recovered": "99",
+        "dead": "6"
     },
     {
         "index": "27",
         "state": "Punjab",
-        "cases": "518",
-        "recovered": "2232",
-        "dead": "55"
+        "cases": "838",
+        "recovered": "2461",
+        "dead": "72"
     },
     {
         "index": "28",
         "state": "Rajasthan",
-        "cases": "2772",
-        "recovered": "8569",
-        "dead": "259"
+        "cases": "3059",
+        "recovered": "9849",
+        "dead": "308"
     },
     {
         "index": "29",
         "state": "Sikkim",
-        "cases": "13",
-        "recovered": "0",
+        "cases": "66",
+        "recovered": "4",
         "dead": "0"
     },
     {
         "index": "30",
         "state": "Tamil Nadu",
-        "cases": "17182",
-        "recovered": "19333",
-        "dead": "326"
+        "cases": "20709",
+        "recovered": "26782",
+        "dead": "528"
     },
     {
         "index": "31",
         "state": "Telangana",
-        "cases": "2138",
-        "recovered": "1817",
-        "dead": "156"
+        "cases": "2188",
+        "recovered": "3027",
+        "dead": "191"
     },
     {
         "index": "32",
         "state": "Tripura",
-        "cases": "655",
-        "recovered": "239",
+        "cases": "658",
+        "recovered": "433",
         "dead": "1"
     },
     {
         "index": "33",
         "state": "Uttarakhand",
-        "cases": "716",
-        "recovered": "831",
-        "dead": "15"
+        "cases": "701",
+        "recovered": "1216",
+        "dead": "25"
     },
     {
         "index": "34",
         "state": "Uttar Pradesh",
-        "cases": "4418",
-        "recovered": "6871",
-        "dead": "321"
+        "cases": "5064",
+        "recovered": "8610",
+        "dead": "417"
     },
     {
         "index": "35",
         "state": "West Bengal",
-        "cases": "5117",
-        "recovered": "3779",
-        "dead": "432"
+        "cases": "5386",
+        "recovered": "6028",
+        "dead": "495"
     }
 ]
