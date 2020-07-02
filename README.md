@@ -29,3 +29,12 @@ Thanks to everyone who has contributed to this awesome tracker so far!
 
 [MIT](http://opensource.org/licenses/MIT)
 Copyright (c) 2020-present, Abhinav Srivastava
+
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/ShelterCom) __by <a href="https://github.com/ShelterCom">ShelterCom</a>__
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://github.com/ShelterCom)
+[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://github.com/ShelterCom)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/ShelterCom)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://github.com/ShelterCom)
+[![forthebadge](https://forthebadge.com/images/badges/oooo-kill-em.svg)](https://github.com/ShelterCom)
