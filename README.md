@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/sheltercom/covi.svg)](http://hits.dwyl.com/sheltercom/covi)
+
 # COVID19 tracker
 Check out the hosted project [here](https://covitracker.netlify.app/)
 
