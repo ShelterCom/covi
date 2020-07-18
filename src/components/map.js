@@ -32,7 +32,7 @@ class map extends Component {
           <b>{this.state.india.filter((item, i) => this.state.idx === item.state).map((item) => item.state).toString()}</b>
         </Alert.Heading>
         <p>
-          <b>Total Cases:</b>
+          <b>Active Cases:</b>
           {this.state.india.filter((item, i) => this.state.idx === item.state).map((item) => item.cases).toString()}<br />
           <b>Cured:</b>
           {this.state.india.filter((item, i) => this.state.idx === item.state).map((item) => item.recovered).toString()}<br />
@@ -263,7 +263,7 @@ class map extends Component {
               d='m 428.276,223.43058 0.449,0.59543 1.766,0.0181 1.713,1.46792 0.07,1.89007 0.523,0.2025 0.512,1.47498 -0.658,1.06291 -0.16,3.49904 -1.665,2.46131 0.885,3.77811 2.366,1.86287 -0.486,1.21302 -2.052,0.64581 -0.271,1.45684 -0.764,0.8866 0,0 -0.569,0.2287 -0.84,-0.98332 -0.585,0.42013 -0.783,-0.59946 -1.257,-0.0212 -0.8,0.24885 0.192,0.66092 -2.051,1.61502 -2.264,-0.54808 -0.405,-0.55916 -1.506,0.20855 -0.772,-0.38789 -1.235,0.45539 -1.064,-0.58032 -0.228,-1.39941 -1.213,-0.42416 0,0 1.092,-2.7555 -0.517,-0.83018 0.104,-0.81506 0.695,-0.50073 -0.759,-1.6402 3.215,-6.97994 -0.507,-0.70424 0.591,-0.40502 -0.106,-0.38486 -1.443,-0.66495 -0.127,-1.64726 0.317,-0.29922 1.038,0.4705 0.86,-0.57629 0.298,0.46143 2.12,-0.97324 0.933,0.27102 1.953,-1.60394 1.169,0.15919 0.325,-1.09213 1.298,-0.44834 -0.097,-0.61658 z'
             />
           </a>
-          <a xlinkTitle='Telangana' onClick={(e) => this.customAlert('Telengana', e)}>
+          <a xlinkTitle='Telangana' onClick={(e) => this.customAlert('Telangana', e)}>
             <path
               id='IN-TG'
               title='Telangana'
