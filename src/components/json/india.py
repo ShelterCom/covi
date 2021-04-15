@@ -1,4 +1,4 @@
-from urllib.request import urlopen as uReq
+from urllib import urlopen as uReq
 from bs4 import BeautifulSoup as soup
 import csv, json
 
@@ -15,36 +15,44 @@ uClient.close()
 page_soup = soup(page_html, "html.parser")
 
 #grabs each row data
-containers = page_soup.findAll("tr")
+containers = page_soup.find("tbody")
+#divs = soup.findAll('table')
+# for container in containers:
+#     row = ''
+#     rows = [container.findAll('tr')]
 
-filename = "cases.csv"
-f = open(filename, "w")
-header = "index,state,cases,recovered,dead\n"
-f.write(header)
+print(containers)
 
-for i in range (1,36):
-	lol = containers[i].findAll("td")
-	index = str(i)
-	state = lol[1].text
-	cases = lol[2].text
-	recovered = lol[3].text
-	dead = lol[4].text
-	f.write(index + "," + state + "," + cases + "," + recovered + "," + dead + "\n")
+#print(containers)
 
-f.close()
+# filename = "cases.csv"
+# f = open(filename, "w")
+# header = "index,state,cases,recovered,dead\n"
+# f.write(header)
 
-csvfilepath = "cases.csv"
-jsonfilepath = "indiadata.json"
+# for i in range (1,36):
+# 	lol = containers[i].findAll("td")
+# 	index = str(i)
+# 	state = lol[1].text
+# 	cases = lol[2].text
+# 	recovered = lol[3].text
+# 	dead = lol[4].text
+# 	f.write(index + "," + state + "," + cases + "," + recovered + "," + dead + "\n")
 
-# Read csv and add data to dictionary
-data = []
-with open(csvfilepath) as csvFile:
-	csvReader = csv.DictReader(csvFile)
-	for csvRow in csvReader:
-		data.append(csvRow)
+# f.close()
 
-root = data
+# csvfilepath = "cases.csv"
+# jsonfilepath = "indiadata.json"
 
-# Write data to JSON
-with open(jsonfilepath, "w") as jsonFile:
-	jsonFile.write(json.dumps(root, indent=4))
+# # Read csv and add data to dictionary
+# data = []
+# with open(csvfilepath) as csvFile:
+# 	csvReader = csv.DictReader(csvFile)
+# 	for csvRow in csvReader:
+# 		data.append(csvRow)
+
+# root = data
+
+# # Write data to JSON
+# with open(jsonfilepath, "w") as jsonFile:
+# 	jsonFile.write(json.dumps(root, indent=4))
