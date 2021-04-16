@@ -33,11 +33,11 @@ class country extends Component {
         </Alert.Heading>
         <p>
           <b>Total Cases:</b>
-          {this.state.world.filter((item, i) => this.state.idx === item.country).map((item) => item.cases).toString()}<br />
+          {this.state.world.filter((item, i) => this.state.idx === item.country).map((item) => item.cases).toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}<br />
           <b>Cured:</b>
-          {this.state.world.filter((item, i) => this.state.idx === item.country).map((item) => item.recovered).toString()}<br />
+          {this.state.world.filter((item, i) => this.state.idx === item.country).map((item) => item.recovered).toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}<br />
           <b>Deaths:</b>
-          {this.state.world.filter((item, i) => this.state.idx === item.country).map((item) => item.dead).toString()}
+          {this.state.world.filter((item, i) => this.state.idx === item.country).map((item) => item.dead).toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}
         </p>
         <hr />
         <div className='d-flex justify-content-end'>
