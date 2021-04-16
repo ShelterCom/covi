@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import Alert from 'react-bootstrap/Alert'
 import Button from 'react-bootstrap/Button'
 import './css/style.css'
+const fetch = require('node-fetch')
 
 class map extends Component {
   constructor (props) {
@@ -16,7 +17,17 @@ class map extends Component {
   }
 
   componentDidMount () {
+    fetch('https://api.covidindiatracker.com/state_data.json')
+      .then((res) => res.text())
+      .then((txt) => console.log(txt))
+
     this.setState({ india: data })
+    let req = new XMLHttpRequest()
+    req.open('GET', 'https://api.covidindiatracker.com/state_data.json')
+    req.onload = function() {
+      console.log(req.response)
+    }
+    req.send()
   }
 
   customAlert (msg, e) {
